@@ -7,7 +7,7 @@ int main(){
    const int const_num=99; //constant integer  
    
    int *p;
-   const int *const_p;
+   const int *const_p; //pointer to a constant integer
    
    p=&num;
    const_p=&const_num;
